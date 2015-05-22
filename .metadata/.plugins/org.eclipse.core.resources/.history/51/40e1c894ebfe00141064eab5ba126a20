@@ -1,0 +1,16 @@
+public class Class1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int task1 = 1;
+		int task2 = 1;
+		int task3 = 1;
+	
+		int sum = task1 + task2 + task3;
+	    int average = sum / 3*100;
+	    
+	    System.out.println("prosjek: " + average);
+		
+		}
+
+}

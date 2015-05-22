@@ -1,0 +1,24 @@
+package ba.bitcamp.edvin.variables;
+
+public class Area {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("hello world");
+		int num = 5;
+		int num2 = 7;
+		
+		int multiplication = num * num2;
+		int plus = num + num2;
+		
+		System.out.println("obim: "+  plus );
+		System.out.println("povrsina: " + multiplication);
+		
+		int num3 = 5;
+		double pi = 3.14;
+		
+		int povrsina = num3*num3 * (double) pi; 
+	}
+
+}
+ 

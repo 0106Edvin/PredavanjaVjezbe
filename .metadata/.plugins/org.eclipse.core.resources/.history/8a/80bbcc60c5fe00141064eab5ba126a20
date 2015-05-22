@@ -1,0 +1,21 @@
+package ba.bitcamp.edvin.variables;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int numb = 9;
+			int numb2 = 2;
+			
+				String message = "Broj"  "je:"	;	
+			
+				char character = 65;
+				
+				System.out.println(message+numb+numb2);
+				System.out.println(character);
+				
+			
+	
+	}
+
+}

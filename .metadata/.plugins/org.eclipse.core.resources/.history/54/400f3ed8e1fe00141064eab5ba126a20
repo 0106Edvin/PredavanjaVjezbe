@@ -1,0 +1,13 @@
+
+public class Class1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int broj1 = 5;
+			int broj2 = 2;
+			int rezultat = broj1 + broj2;
+			System.out.println("Rezultat" + rezultat);
+			
+	}
+
+}

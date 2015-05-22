@@ -1,0 +1,16 @@
+public class Cylinder {
+	public static void main(String[] args) {
+
+	double voltage = 520;
+	double resistance = 2230;
+	
+	double current = voltage / resistance;
+	//this is how we calculate intensity of power
+	System.out.println("I: " + power );
+	
+  boolean S = power  < 0.1;
+  //
+  System.out.println("Moguce prezivjeti? " + S);
+  
+	}
+}

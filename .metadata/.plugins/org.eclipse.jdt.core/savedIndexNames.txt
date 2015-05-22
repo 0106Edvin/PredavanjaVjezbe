@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+/Users/edvin.mulabdic/Documents/Eclipse/.metadata/.plugins/org.eclipse.jdt.core
+327385296.index
+1317970202.index
+961748188.index
+3948438382.index
+2445715734.index

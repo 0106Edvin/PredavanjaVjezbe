@@ -1,0 +1,10 @@
+public class Cylinder {
+	public static void main(String[] args) {
+
+	int voltage = 220;
+	int resistance = 2230;
+	
+	double power = voltage / resistance;
+	System.out.println("I: " + power );
+	}
+}

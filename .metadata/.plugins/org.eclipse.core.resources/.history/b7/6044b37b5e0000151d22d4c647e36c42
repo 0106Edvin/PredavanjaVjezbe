@@ -1,0 +1,16 @@
+package ba.bitcamp.edvin.IF;
+
+public class IsPositive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		int broj = 10;
+		String brojstr = args [0];
+		int br = Integer. parseInt (brojstr);
+		boolean pozitivno = broj >= 0;
+		System.out.println(pozitivno);
+        
+	}
+
+}

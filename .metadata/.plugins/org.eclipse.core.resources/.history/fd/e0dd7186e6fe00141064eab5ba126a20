@@ -1,0 +1,15 @@
+public class Class1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char character1 = 'e';
+		char character2 = 'd';
+		char character3 = 'v';
+		char character4 = 'i';
+		char character5 = 'n';
+		
+		String ime = ("character1" + "character2" + "character3"+ "character4" + "character5");
+		System.out.println("Ime " + ime);
+		}
+
+}

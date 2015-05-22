@@ -1,0 +1,17 @@
+public class Cylinder {
+	public static void main(String[] args) {
+
+		int h = 4;
+		int R = 6;
+
+		double B = R / 2 * R / 2 * Math.PI;
+		// B is area of base
+		double volumen = B * h;
+		double povrsinaValjka = 2 * B + (2 * R / 2 * Math.PI * h);
+
+		System.out.printf("V:%f\n", + volumen); 
+		System.out.printf("P: %f\n",+ povrsinaValjka);
+
+		
+	}
+}

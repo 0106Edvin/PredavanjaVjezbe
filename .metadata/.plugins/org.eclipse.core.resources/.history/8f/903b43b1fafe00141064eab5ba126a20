@@ -1,0 +1,16 @@
+public class Cylinder {
+	public static void main(String[] args) {
+
+		double voltage = 520;
+		double resistance = 2230;
+
+		double current = voltage / resistance;
+		// this is how we calculate intensity of current
+		System.out.println("I: " + current);
+
+		boolean S = current < 0.1;
+		// if current is lower than 0.1 A then human have chance to survive
+		System.out.println("Moguce prezivjeti? " + S);
+
+	}
+}

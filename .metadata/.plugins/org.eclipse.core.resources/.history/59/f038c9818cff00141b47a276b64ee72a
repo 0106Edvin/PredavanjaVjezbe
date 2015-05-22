@@ -1,0 +1,16 @@
+package ba.bitcamp.edvin.vjezbe;
+
+public class Class1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int bin = 0b1011100011;
+		int bin1 = 0b111111111;
+		int sum = bin + bin1;
+		
+		System.out.println(sum);
+				
+
+	}
+
+}

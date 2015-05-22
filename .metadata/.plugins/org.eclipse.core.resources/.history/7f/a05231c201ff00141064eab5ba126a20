@@ -1,0 +1,13 @@
+
+public class Class2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			double meters = 33000;
+			
+			System.out.printf("km = %s\n mm = %s\n feet = %s\n inch = %s\n", 33 , 33000000 , 17325698 , 53215);
+			
+			
+	}
+
+}

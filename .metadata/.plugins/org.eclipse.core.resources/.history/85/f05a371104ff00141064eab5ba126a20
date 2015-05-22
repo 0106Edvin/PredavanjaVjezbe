@@ -1,0 +1,25 @@
+
+public class Class2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			double meters = 33000;
+			double kilometers = meters / 1000;
+			double milimeters = meters * 1000000;
+			double feet = meters * 3.28;
+			double inch = meters * 39.37;
+			
+			System.out.printf ("%s = [m] \n", meters);
+			System.out.printf ("%s = [km] \n", kilometers);
+			System.out.printf ("%s = [mm] \n", milimeters);
+			System.out.printf ("%s = [feet] \n", feet);
+			System.out.printf ("%s = [inch] \n", inch);
+			
+					
+			
+			
+			
+			
+	}
+
+}
