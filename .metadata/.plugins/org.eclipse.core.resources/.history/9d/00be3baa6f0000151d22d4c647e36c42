@@ -1,0 +1,13 @@
+package ba.bitcamp.edvin.IF;
+
+public class Friday {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double t = 0.1;
+		double sum = t+t+t;
+		double expsum = 0.3;
+		
+	}
+
+}

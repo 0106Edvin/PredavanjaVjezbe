@@ -1,0 +1,21 @@
+package ba.bitcamp.edvin.IF;
+
+public class Range {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 1;
+		int b = 3;
+		if (a > b) {
+			System.out.println("Heloo");
+
+		} else
+
+		if (a < b)
+			;
+		{
+			System.out.println("Goodbye");
+
+		}
+
+	}

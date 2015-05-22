@@ -1,0 +1,14 @@
+package ba.bitcamp.edvin.IF;
+
+public class Range {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int broj = 10;
+		int broj2 = 0;
+		System.out.println(broj / broj2);
+			
+
+	}
+
+}
