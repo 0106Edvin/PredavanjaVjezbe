@@ -1,0 +1,19 @@
+package ba.bitcamp.edvin.vjezbe;
+
+public class Zadatak5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 201;
+		
+		if (a<3112 && a>2205){
+			System.out.println("Rodjendan nije bio");
+		}else if (a>101 && a<2205){
+			System.out.println("Rodjendan je bio");
+		}
+			
+				
+
+	}
+
+}

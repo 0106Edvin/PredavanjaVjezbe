@@ -1,0 +1,26 @@
+package ba.bitcamp.edvin.vjezbe;
+
+public class Zadaci7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int day = 30;
+		int month = 6;
+		int year = 2015;
+		int Day = day + 1;
+		int Month = month + 1;
+		int firstDay = 1;
+		
+
+		if (Day < 32 && month < 13) {
+			System.out.println("Sutra je " + Day + " " + month +" "+ year);
+		} else if (Day > 31) {
+			System.out.println("Sutra je " + firstDay + " " + Month + " "+year);
+
+		} else if (Day < 32 && Day>30 && month == 4 || month ==6 || month==7 ||month==9 || month==11 ){
+			System.out.println("Sutra je " + firstDay + " " + Month + " " + year);
+		}
+
+	}
+
+}

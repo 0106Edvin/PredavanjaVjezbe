@@ -1,0 +1,26 @@
+package ba.bitcamp.edvin.vjezbe;
+
+public class Zadatak3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 5;
+		int b = 5;
+		int c = -9;
+		if (a > b && a > c) { // this is checking if a is the biggest number
+			System.out.println(a);
+		} else if (b > a && b > c) { // this is checking if b is the biggest
+										// number
+			System.out.println(b);
+
+		} else if (c > a && c > b) {
+			System.out.println(c);
+		} else if (a == b || a == c) { // print a if a equals b or c
+			System.out.println(a);
+		} else if (b == c) {
+			System.out.println(b);
+		}
+
+	}
+
+}

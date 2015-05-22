@@ -1,0 +1,18 @@
+package ba.bitcamp.edvin.vjezbe;
+
+public class Zadaci7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int day = 25;
+		int month = 6;
+		int date = day+=1;
+		
+		if (date < 32 && month<13){
+			System.out.println("Sutra je " + date + " " + month);
+		}
+		
+
+	}
+
+}

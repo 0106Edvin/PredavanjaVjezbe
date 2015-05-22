@@ -1,0 +1,23 @@
+package ba.bitcamp.edvin.vjezbe;
+
+public class Zadatak5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int today = 22;
+		int thisMonth = 5;
+		int day = 1;
+		int month = 8;
+		
+		
+		if (day < today && month<thisMonth){
+			System.out.println("Rodjendan je bio");
+		}else if (day > today && month>thisMonth){
+			System.out.println("Rodjendan nije bio");
+		}
+			
+				
+
+	}
+
+}

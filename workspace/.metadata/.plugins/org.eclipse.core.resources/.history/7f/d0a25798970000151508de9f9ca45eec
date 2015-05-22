@@ -1,0 +1,23 @@
+package ba.bitcamp.edvin.vjezbe;
+
+public class Zadaci7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int day = 30;
+		int month = 6;
+		int year = 2015;
+
+		if (day < 32 && month ==4 || month == 6 || month == 9 || month == 11) {
+			System.out.println("Tomorrow " + (day+1) + "." + month + "."+ year);
+	
+		} else if (day == 31 && month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10) {
+			System.out.println("Tomorrow " + (1) + "." + (month + 1) + "."+ year);
+
+		} //else if () {
+			System.out.println("Tomorrow is " + day + "." + month + "." + year);
+		}
+
+	//}
+
+}
